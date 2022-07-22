@@ -1,0 +1,214 @@
+:root{
+    --primeri-text-color:#000000;
+    --title-text-color:#757575;
+    --accent-text-color:#2196f3;
+    --basis-text-color:#ffffff;
+    --background-color-primeri:#ffffff;
+    --background-color-title:#2f303a;
+    --background-color-accent:#2196F3;
+}
+body{
+    color:var(--primeri-text-color);
+    background-color:var(--background-color-primeri);
+    font-family:Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+}
+    .list{
+        list-style:none;
+    }
+
+    /*Заголовок*/
+
+    header{
+        color:var(--primeri-text-color);
+        background-color: var(--background-color-primeri);
+        
+        }
+          
+     .colortext {
+        color: rgba(33, 150, 243, 1);
+        
+    }
+    .page{
+        color:var(--primeri-text-color);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;  
+        text-decoration:none;
+        
+        }    
+
+.current-link{
+    color:rgba(117, 117, 117, 1);
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+     
+}
+
+
+
+.site-nave .link {
+    color:var(--primeri-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    text-decoration:none;
+}
+
+    .site-nave .link:hover,
+    .site-nave .link:focus{
+        color:var(--accent-text-color);
+    }
+
+    .current-link:hover,
+    .current-link:focus{
+        color:var(--accent-text-color);
+    }
+
+    
+    /*Section*/
+
+.section-title {
+    color:var(--primeri-text-color);
+}
+/*------MAIN------*/
+
+/*Basis*/
+
+.basis, .basis-title{
+    color:#ffffff;
+    background-color:var(--background-color-title);
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.4;
+    text-align: center;
+    text-decoration: none;    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+        }
+    
+.button{
+    color:var(--basis-text-color);
+    background-color:var(--background-color-accent);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+    
+}
+
+.button:hover,
+.button:focus{
+    background-color:var(--background-color-primeri);
+    color:var(--primeri-text-color)
+}
+
+   .features-title, .title{
+    color: var(--primeri-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height:1.1;
+    text-decoration: none
+
+}
+.features-text, .text{
+    color:var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none
+   
+}
+/*--What are we doing--*/
+
+.section-page{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+    /*--our team--*/
+
+.section-team {
+    width: 270px;
+    height: 368px;  
+}   
+
+.section-team-title{
+    color: var(--primeri-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  
+}
+
+.section-team-text{
+    color:var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+   
+    }
+
+    /*------footer------*/
+    
+footer{
+    background-color: var(--background-color-title);
+    text-decoration: none;
+}
+.logo-page{
+    color: var(--basis-text-color);
+    font-family:Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.site-nave-add {
+    color:var(--basis-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ .site-nave-add:hover{
+    color: var(--accent-text-color);
+
+ }
+
+
+ .site-nave-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ 
+ .site-nave-link:hover {
+    color:var(--accent-text-color);
+
+ }
+
